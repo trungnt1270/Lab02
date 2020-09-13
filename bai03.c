@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-main3()
+main()
 {
 	int num1;
 	int num2;
@@ -14,7 +14,7 @@ main3()
 	printf("Tong = %d\n", num1+num2);
 	printf("Hieu = %d\n", num1-num2);
 	printf("Tich = %d\n", num1*num2);
-	printf("Thuong = %d\n", num1/num2);
+	printf("Thuong = %f\n", (float)num1/num2);
 	
 	getch();
 }
